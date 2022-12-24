@@ -1,0 +1,24 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.pagination-list__item-page{
+  font-size: 14px;
+  color: var(--orange-color);
+}
+
+.pagination-list__item-nav{
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+}
