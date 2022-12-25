@@ -11,8 +11,7 @@ async function onCreate() {
 async function createCardMarkup(data) {
     const markup = data
         .map(({ id, genre_ids, poster_path, title, release_date }) => {
-          return
-        `<li class="gallery-card card">
+          return `<li class="gallery-card card">
               <img data-id=${id} data-ganres='${genre_ids}'
               src="https://image.tmdb.org/t/p/w500/${poster_path}" alt="${title}" class="card-image">
             <div class="card-info">
